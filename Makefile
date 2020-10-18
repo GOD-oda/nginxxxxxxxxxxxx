@@ -1,3 +1,3 @@
 .PHONY: up
 up:
-	docker run -p 55555:80 nginx
+	docker run --name nginxxxxxxxxxxxx --rm -d -p 55555:80 nginx
