@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    build: ./
+    image: nginxxxxxxxxxxxx
+    ports:
+      - 55555:80
