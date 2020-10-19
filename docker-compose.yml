@@ -5,3 +5,6 @@ services:
     image: nginxxxxxxxxxxxx
     ports:
       - 55555:80
+    volumes:
+      - ./docker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./app:/var/www/html
